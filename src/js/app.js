@@ -89,3 +89,9 @@ window.onload = function() {
     });
   });
 };
+
+function render(variables = {}) {
+  document.querySelector(
+    "#widget_content"
+  ).innerHTML = `<div>Website code</div>`;
+}
